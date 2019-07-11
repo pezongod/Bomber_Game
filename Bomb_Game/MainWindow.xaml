@@ -6,13 +6,23 @@
         xmlns:local="clr-namespace:Bomb_Game"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+<<<<<<< HEAD
     <Grid Margin="-88,-33,-6.4,-30" RenderTransformOrigin="0.504,0.495">
+=======
+    <Grid Margin="-88,-108,-116.4,-110" RenderTransformOrigin="0.448,0.616">
+>>>>>>> 04704c4d9fa3f64a6f05cbe8cd8c410ae92bf635
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="947*"/>
             <ColumnDefinition Width="13*"/>
         </Grid.ColumnDefinitions>
+<<<<<<< HEAD
         <Button x:Name="Start_Game" Content="Start Game" HorizontalAlignment="Left" Margin="281,306,0,0" VerticalAlignment="Top" Width="75" AutomationProperties.Name="Start Game" Click="Button_Click"/>
         <Canvas HorizontalAlignment="Left" Height="100" Margin="200,198,0,0" VerticalAlignment="Top" Width="100"/>
+=======
+        <Button Content="Button" HorizontalAlignment="Left" Margin="281,306,0,0" VerticalAlignment="Top" Width="75"/>
+>>>>>>> 04704c4d9fa3f64a6f05cbe8cd8c410ae92bf635
         <TextBox HorizontalAlignment="Left" Height="23" Margin="426,198,0,0" TextWrapping="Wrap" Text="Hejsan" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="460,221,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Andys knapp" HorizontalAlignment="Left" Margin="756,477,0,0" VerticalAlignment="Top" Width="97" FontSize="14"/>
     </Grid>
 </Window>
