@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:Bomb_Game"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Margin="-136,-136,-30.4,-48">
-        
+    <Grid Margin="-88,-108,-116.4,-110">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="947*"/>
+            <ColumnDefinition Width="13*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="281,306,0,0" VerticalAlignment="Top" Width="75"/>
+        <Canvas HorizontalAlignment="Left" Height="100" Margin="200,198,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="426,198,0,0" TextWrapping="Wrap" Text="Hejsan" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>
