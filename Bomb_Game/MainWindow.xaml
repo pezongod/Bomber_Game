@@ -8,8 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Margin="-136,-136,-30.4,-48">
         <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="533,356,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="568,299,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="533,356,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Height="23" Margin="563,295,0,0" TextWrapping="Wrap" Text="blaha" VerticalAlignment="Top" Width="120"/>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="311,191,0,0" VerticalAlignment="Top" Width="100" OpacityMask="#FFEB1A1A"/>
 
     </Grid>
 </Window>

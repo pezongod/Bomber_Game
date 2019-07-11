@@ -29,5 +29,10 @@ namespace Bomb_Game
         {
             
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            txt1.Text = "Hello WPF!";
+        }
     }
 }
